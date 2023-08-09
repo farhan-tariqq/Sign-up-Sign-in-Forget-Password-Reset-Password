@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Forget Password</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+	/* Common styles for all screen sizes */
+	.form-group input {
+		width: 100%; /* Make the input fields fill their container */
+	}
+	
+	.login-wrap {
+		padding: 0;
+		width: 355px;
+	}
+
+	/* Media query for screens smaller than 768px (typical mobile size) */
+	@media (max-width: 767px) {
+		.login-wrap {
+			display: flex;
+			flex-direction: column;
+			align-items: stretch; /* Stretch items to full width */
+		}
+
+		.login-wrap img {
+			margin: 0 auto; /* Center the image horizontally */
+		}
+	}
+</style>
+
+<body style="padding-top: 125px; margin: 0;">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="login-wrap p-1 p-md-3">
+				<div class="d-flex align-items-center justify-content-center">
+					<img src="images/BFF Logo.png" width="90" alt="">
+				</div>
+				<h3 class="text-center mb-1" style="font-size: 20px;">Forget Password</h3>
+				<form action="#" class="login-form">
+					<div class="form-group" style="margin-bottom: 3px;">
+						<label for="" style="margin-bottom: 1px;">Email</label>
+						<input type="text" class="form-control rounded-left" placeholder="Email Address" required>
+					</div>
+					<div class="form-group" style="text-align: center; margin-top: 15px;">
+						<button type="submit" class="btn btn-primary rounded p-1 px-3 btn-sm">Reset</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+	
